@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>My project (14)</title>
+    <title>blippar</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
@@ -103,14 +103,14 @@ var UNITYINSTANCE = undefined;
 const cameraObjectName = "webarCamera";
 const stageObjectName = "44406be6-72ea-49f0-a10b-7c1184f88ea2 ";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebAR-My project (14).loader.js";
+      const loaderUrl = buildUrl + "/WebAR-blippar.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebAR-My project (14).data.unityweb",
-        frameworkUrl: buildUrl + "/WebAR-My project (14).framework.js.unityweb",
-        codeUrl: buildUrl + "/WebAR-My project (14).wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-blippar.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-blippar.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-blippar.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "My project (14)",
+        productName: "blippar",
         productVersion: "0.1",
       };
 
@@ -119,7 +119,7 @@ const stageObjectName = "44406be6-72ea-49f0-a10b-7c1184f88ea2 ";
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         container.className = "unity-mobile";
-        config.devicePixelRatio = 1;
+        config.devicePixelRatio = 3;
       }
       else {
         // Desktop Unity Container: set the container/canvas for full screen
